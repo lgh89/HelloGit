@@ -13,6 +13,7 @@
 		D717B2851F41A6B3009C7EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D717B2831F41A6B3009C7EC5 /* Main.storyboard */; };
 		D717B2871F41A6B3009C7EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D717B2861F41A6B3009C7EC5 /* Assets.xcassets */; };
 		D717B28A1F41A6B3009C7EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D717B2881F41A6B3009C7EC5 /* LaunchScreen.storyboard */; };
+		D791D0A91F42A01E00787574 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D791D0A81F42A01E00787574 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D717B2861F41A6B3009C7EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D717B2891F41A6B3009C7EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D717B28B1F41A6B3009C7EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D791D0A71F42A01E00787574 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D791D0A81F42A01E00787574 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				D717B2881F41A6B3009C7EC5 /* LaunchScreen.storyboard */,
 				D717B28B1F41A6B3009C7EC5 /* Info.plist */,
 				D717B27A1F41A6B3009C7EC5 /* Supporting Files */,
+				D791D0A71F42A01E00787574 /* FirstViewController.h */,
+				D791D0A81F42A01E00787574 /* FirstViewController.m */,
 			);
 			path = fwfwefwef;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				D717B2821F41A6B3009C7EC5 /* ViewController.m in Sources */,
 				D717B27F1F41A6B3009C7EC5 /* AppDelegate.m in Sources */,
 				D717B27C1F41A6B3009C7EC5 /* main.m in Sources */,
+				D791D0A91F42A01E00787574 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -312,6 +318,7 @@
 				D717B2901F41A6B3009C7EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
